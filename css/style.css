@@ -422,8 +422,34 @@ Ende Bewertungen
 }
 
 
+@media only screen and (min-width: 768px) {
+
+    .header #contactbuttonmobil {
+        display: none;
+    }
+
+    .header #contactbuttondesktop {
+        display: block;
+    }
+}
 
 @media only screen and (max-width: 767px) {
+
+    .header #contactbuttonmobil {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        background-color: #b82828;
+        color: #FFFFFF;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .header #contactbuttondesktop {
+        display: none;
+    }
 
     .why-us .box {
         border-radius: 36px;
@@ -698,6 +724,8 @@ Ende Bewertungen
         margin:2rem;
         display: block;
         font-size: 2rem;
+        width: 100%;
+        text-align: center;
     }
 
 }
