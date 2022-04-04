@@ -3,7 +3,7 @@
     margin:0; padding:0;
     box-sizing: border-box;
     text-decoration: none;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     transition: .2s linear;
 }
 
@@ -475,13 +475,14 @@ Ende Bewertungen
         animation: moving 4s linear infinite 0.5s;
     }
     .trees img {
-        width: 100%;
+        width: 500vw;
         height: 70vh;
         margin-top: 10vh;
     }
 
     .car {
-        position: absolute; left: 50%;
+        position: absolute;
+        left: 50%;
         height: 85px;
         bottom: 10vh;
         z-index: 20;
@@ -524,6 +525,24 @@ Ende Bewertungen
         100% {
             transform: rotate(360deg);
         }
+    }
+
+    .homebutton {
+        height: 200px;
+        position: relative;
+        margin-top: 120px;
+        z-index: 20;
+    }
+
+    .homebutton-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 5px;
     }
     /*
     End Home
