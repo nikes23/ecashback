@@ -456,22 +456,15 @@ Ende Bewertungen
         left: 0;
         bottom: 0;
         z-index: 10;
-        animation-name: moving;
-        -webkit-animation-name: moving;
-        animation-duration: 1s;
-        -webkit-animation-duration: 1s;
-        animation-iteration-count: infinite;
-        -webkit-animation-iteration-count: infinite;
-        /*
         animation: moving 1s linear infinite 0.5s;
-        -webkit-animation: webkit-moving 1s linear infinite 0.5s;
-        */
+        /*-webkit-animation: webkit-moving 1s linear infinite 0.5s;*/
+
     }
 
     @keyframes moving {
         100% {
-            transform: translateX(-100vw);
-            -webkit-transform: translateX(-100vw);
+            transform: translateX(-180vw);
+            -webkit-transform: translateX(-180vw);
         }
     }
 
