@@ -463,6 +463,7 @@ Ende Bewertungen
     @keyframes moving {
         100% {
             transform: translateX(-100vw);
+            -webkit-transform: translateX(-100vw);
         }
     }
 
@@ -534,6 +535,7 @@ Ende Bewertungen
     @keyframes rotate {
         100% {
             transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
         }
     }
 
@@ -684,6 +686,7 @@ Ende Bewertungen
     @keyframes moving {
         100% {
             transform: translateX(-100vw);
+            -webkit-transform: translateX(-100vw);
         }
     }
 
@@ -739,6 +742,7 @@ Ende Bewertungen
     @keyframes rotate {
         100% {
             transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
         }
     }
 
@@ -855,6 +859,7 @@ Ende Bewertungen
     @keyframes moving {
         100% {
             transform: translateX(-100vw);
+            -webkit-transform: translateX(-100vw);
         }
     }
 
@@ -911,6 +916,7 @@ Ende Bewertungen
     @keyframes rotate {
         100% {
             transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
         }
     }
 
