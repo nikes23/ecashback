@@ -466,6 +466,20 @@ Ende Bewertungen
             transform: translateX(-180vw);
             -webkit-transform: translateX(-180vw);
         }
+    }
+
+    @-webkit-keyframes webkit-moving {
+        100% {
+            -webkit-transform: translateX(-180vw);
+        }
+    }
+
+    /*
+    @keyframes moving {
+        100% {
+            transform: translateX(-180vw);
+            -webkit-transform: translateX(-180vw);
+        }
         0% {
             transform: translateX(280vw);
             -webkit-transform: translateX(280vw);
@@ -481,6 +495,34 @@ Ende Bewertungen
             -webkit-transform: translateX(280vw);
         }
     }
+
+    @-webkit-keyframes webkit-moving {
+        0% {
+            -webkit-transform: translateX(280vw);
+        }
+        10% {
+            -webkit-transform: translateX(250vw);
+        }
+        30% {
+            -webkit-transform: translateX(220vw);
+        }
+        40% {
+            -webkit-transform: translateX(190vw);
+        }
+        50% {
+            -webkit-transform: translateX(160vw);
+        }
+        60% {
+            -webkit-transform: translateX(130vw);
+        }
+        90% {
+            -webkit-transform: translateX(100vw);
+        }
+        100% {
+            -webkit-transform: translateX(-180vw);
+        }
+    }
+    */
 
     .trees {
         position: absolute;
