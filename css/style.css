@@ -83,7 +83,7 @@ body{
 .home{
     padding-top: 10rem;
     text-align: center;
-    height: 80vh;
+    height: 85vh;
     overflow: hidden;
     overflow-x: hidden!important;
     position: relative;
@@ -550,7 +550,7 @@ Ende Bewertungen
     }
     .trees img {
         width: 500vw;
-        height: 50vh;
+        height: 51vh;
         margin-top: 10vh;
     }
 
