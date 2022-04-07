@@ -465,13 +465,13 @@ Ende Bewertungen
     @keyframes moving {
         100% {
             transform: translate(-180vw);
-            -webkit-transform: translate(-180vw);
+            -webkit-transform: translate(-80vw);
         }
     }
 
     @-webkit-keyframes webkit-moving {
         100% {
-            -webkit-transform: translate(-180vw);
+            -webkit-transform: translate(-80vw);
         }
     }
 
