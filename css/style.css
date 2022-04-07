@@ -84,6 +84,7 @@ body{
     padding-top: 10rem;
     text-align: center;
     height: 80vh;
+    width: 100%;
     overflow: hidden;
     overflow-x: hidden!important;
     position: relative;
