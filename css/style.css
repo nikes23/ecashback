@@ -457,7 +457,7 @@ Ende Bewertungen
         bottom: 0;
         z-index: 10;
         animation: moving 1s linear infinite 0.5s;
-        -webkit-animation: moving 1s linear infinite 0.5s;
+        -webkit-animation: webkit-moving 1s linear infinite 0.5s;
     }
 
     @keyframes moving {
@@ -480,7 +480,7 @@ Ende Bewertungen
         display: flex;
         z-index: 5;
         animation: moving 4s linear infinite 0.5s;
-        -webkit-animation: moving 4s linear infinite 0.5s;
+        -webkit-animation: webkit-moving 4s linear infinite 0.5s;
     }
     .trees img {
         width: 500vw;
