@@ -466,11 +466,19 @@ Ende Bewertungen
             transform: translateX(-180vw);
             -webkit-transform: translateX(-180vw);
         }
+        0% {
+            transform: translateX(280vw);
+            -webkit-transform: translateX(280vw);
+        }
     }
 
     @-webkit-keyframes webkit-moving {
         100% {
             -webkit-transform: translateX(-100vw);
+        }
+        0% {
+            transform: translateX(280vw);
+            -webkit-transform: translateX(280vw);
         }
     }
 
