@@ -465,6 +465,12 @@ Ende Bewertungen
         }
     }
 
+    @-webkit-keyframes moving {
+        100% {
+            -webkit-transform: translateX(-100vw);
+        }
+    }
+
     .trees {
         position: absolute;
         left: 0;
@@ -524,6 +530,12 @@ Ende Bewertungen
     @keyframes rotate {
         100% {
             transform: rotate(360deg);
+        }
+    }
+
+    @-webkit-keyframes rotate {
+        100% {
+            -webkit-transform: rotate(360deg);
         }
     }
 
@@ -669,6 +681,12 @@ Ende Bewertungen
         }
     }
 
+    @-webkit-keyframes moving {
+        100% {
+            -webkit-transform: translateX(-100vw);
+        }
+    }
+
     .trees {
         position: absolute;
         left: 0;
@@ -713,6 +731,12 @@ Ende Bewertungen
     @keyframes rotate {
         100% {
             transform: rotate(360deg);
+        }
+    }
+
+    @-webkit-keyframes rotate {
+        100% {
+            -webkit-transform: rotate(360deg);
         }
     }
     /*
@@ -825,6 +849,12 @@ Ende Bewertungen
         }
     }
 
+    @-webkit-keyframes moving {
+        100% {
+            -webkit-transform: translateX(-100vw);
+        }
+    }
+
     .trees {
         position: absolute;
         left: 0;
@@ -869,6 +899,12 @@ Ende Bewertungen
     @keyframes rotate {
         100% {
             transform: rotate(360deg);
+        }
+    }
+
+    @-webkit-keyframes rotate {
+        100% {
+            -webkit-transform: rotate(360deg);
         }
     }
     /*
