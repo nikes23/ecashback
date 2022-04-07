@@ -462,17 +462,31 @@ Ende Bewertungen
     }
 
     @keyframes moving {
-        100% {
+        /*100% {
             transform: translateX(-180vw);
             -webkit-transform: translateX(-180vw);
+        }*/
+
+        0% {
+            transform: translate(0, 0);
+        }
+        100% {
+            transform: translate(-120px, 0);
         }
     }
 
     @-webkit-keyframes webkit-moving {
-        100% {
+        /*100% {
             -webkit-transform: translateX(-180vw);
+        }*/
+        0% {
+            -webkit-transform: translate(0, 0);
+        }
+        100% {
+            -webkit-transform: translate(-600px, 0);
         }
     }
+
 
     /*
     @keyframes moving {
