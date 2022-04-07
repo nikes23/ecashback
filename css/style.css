@@ -457,6 +457,7 @@ Ende Bewertungen
         bottom: 0;
         z-index: 10;
         animation: moving 1s linear infinite 0.5s;
+        -webkit-animation: moving 1s linear infinite 0.5s;
     }
 
     @keyframes moving {
@@ -465,7 +466,7 @@ Ende Bewertungen
         }
     }
 
-    @-webkit-keyframes moving {
+    @-webkit-keyframes webkit-moving {
         100% {
             -webkit-transform: translateX(-100vw);
         }
@@ -479,6 +480,7 @@ Ende Bewertungen
         display: flex;
         z-index: 5;
         animation: moving 4s linear infinite 0.5s;
+        -webkit-animation: moving 4s linear infinite 0.5s;
     }
     .trees img {
         width: 500vw;
@@ -513,6 +515,7 @@ Ende Bewertungen
         z-index: 30;
         object-fit: contain;
         animation: rotate 0.3s linear infinite 0.5s;
+        -webkit-animation: webkit-rotate 0.3s linear infinite 0.5s;
     }
 
     .wheel-2 {
@@ -525,6 +528,7 @@ Ende Bewertungen
         z-index: 30;
         object-fit: contain;
         animation: rotate 0.3s linear infinite 0.5s;
+        -webkit-animation: webkit-rotate 0.3s linear infinite 0.5s;
     }
 
     @keyframes rotate {
@@ -533,7 +537,7 @@ Ende Bewertungen
         }
     }
 
-    @-webkit-keyframes rotate {
+    @-webkit-keyframes webkit-rotate {
         100% {
             -webkit-transform: rotate(360deg);
         }
@@ -673,6 +677,7 @@ Ende Bewertungen
         bottom: 0;
         z-index: 10;
         animation: moving 3s linear infinite 0.5s;
+        -webkit-animation: moving 3s linear infinite 0.5s;
     }
 
     @keyframes moving {
@@ -681,7 +686,7 @@ Ende Bewertungen
         }
     }
 
-    @-webkit-keyframes moving {
+    @-webkit-keyframes webkit-moving {
         100% {
             -webkit-transform: translateX(-100vw);
         }
@@ -717,6 +722,7 @@ Ende Bewertungen
         top: 475px;
         z-index: 30;
         animation:  rotate 0.3s linear infinite 0.5s;
+        -webkit-animation: webkit-rotate 0.3s linear infinite 0.5s;
     }
 
     .wheel-2 {
@@ -726,6 +732,7 @@ Ende Bewertungen
         top: 478px;
         z-index: 30;
         animation:  rotate 0.3s linear infinite 0.5s;
+        -webkit-animation: webkit-rotate 0.3s linear infinite 0.5s;
     }
 
     @keyframes rotate {
@@ -734,7 +741,7 @@ Ende Bewertungen
         }
     }
 
-    @-webkit-keyframes rotate {
+    @-webkit-keyframes webkit-rotate {
         100% {
             -webkit-transform: rotate(360deg);
         }
@@ -841,6 +848,7 @@ Ende Bewertungen
         bottom: 0;
         z-index: 10;
         animation: moving 3s linear infinite 0.5s;
+        -webkit-animation: moving 3s linear infinite 0.5s;
     }
 
     @keyframes moving {
@@ -849,7 +857,7 @@ Ende Bewertungen
         }
     }
 
-    @-webkit-keyframes moving {
+    @-webkit-keyframes webkit-moving {
         100% {
             -webkit-transform: translateX(-100vw);
         }
@@ -863,6 +871,7 @@ Ende Bewertungen
         display: flex;
         z-index: 5;
         animation: moving 9s linear infinite 0.5s;
+        -webkit-animation: moving 9s linear infinite 0.5s;
     }
     .trees img {
         width: 180vw;
@@ -885,6 +894,7 @@ Ende Bewertungen
         top: 475px;
         z-index: 30;
         animation:  rotate 0.3s linear infinite 0.5s;
+        -webkit-animation: webkit-rotate 0.3s linear infinite 0.5s;
     }
 
     .wheel-2 {
@@ -894,6 +904,7 @@ Ende Bewertungen
         top: 478px;
         z-index: 30;
         animation:  rotate 0.3s linear infinite 0.5s;
+        -webkit-animation: webkit-rotate 0.3s linear infinite 0.5s;
     }
 
     @keyframes rotate {
@@ -902,7 +913,7 @@ Ende Bewertungen
         }
     }
 
-    @-webkit-keyframes rotate {
+    @-webkit-keyframes webkit-rotate {
         100% {
             -webkit-transform: rotate(360deg);
         }
